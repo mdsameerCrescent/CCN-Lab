@@ -101,11 +101,11 @@ public class EchoClient {
 
 ### Echo Server
 
-![Echo Server](output/echo_server.png)
+![Echo Server](Output/echo_server.png)
 
 ### Echo Client
 
-![Echo Client](output/echo_client.png)
+![Echo Client](Output/echo_client.png)
 
 ---
 
@@ -200,11 +200,11 @@ public class ChatClient {
 
 ### Chat Server
 
-![Chat Server](output/simple_chat_server.png)
+![Chat Server](Output/simple_chat_server.png)
 
 ### Chat Client
 
-![Chat Client](output/simple_chat_client.png)
+![Chat Client](Output/simple_chat_client.png)
 
 ---
 
@@ -276,11 +276,11 @@ public class FileClient {
 
 ### FTP Server
 
-![FTP Server](output/ftp_tcp_server.png)
+![FTP Server](Output/ftp_tcp_server.png)
 
 ### FTP Client
 
-![FTP Client](output/ftp_tcp_client.png)
+![FTP Client](Output/ftp_tcp_client.png)
 
 ---
 
@@ -325,11 +325,11 @@ public class RemoteServer {
 
 ### Remote Server
 
-![Remote Server](output/remote_exec_server.png)
+![Remote Server](Output/remote_exec_server.png)
 
 ### Remote Client
 
-![Remote Client](output/remote_exec_client.png)
+![Remote Client](Output/remote_exec_client.png)
 
 ---
 
@@ -359,7 +359,7 @@ public class PingProgram {
 
 ## 📸 Output
 
-![Ping Output](output/ping_program.png)
+![Ping Output](Output/ping_program.png)
 
 ---
 
