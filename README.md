@@ -405,6 +405,10 @@ public class HammingCode {
     }
 }
 ```
+## 📸 Output
+
+![HammingCode Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/hammin_code.png)
+
 
 ---
 
