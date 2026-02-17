@@ -1,9 +1,5 @@
 
----
-
 # 📡 CCN LAB – Computer Communication and Networking Laboratory
-
----
 
 # 📚 List of Programs
 
@@ -40,7 +36,7 @@ Echo protocol is a client-server communication model where the server sends back
 
 ---
 
-## 📝 Echo Server Program
+## 💻 Echo Server Code
 
 ```java
 import java.io.*;
@@ -70,7 +66,7 @@ public class EchoServer {
 
 ---
 
-## 📝 Echo Client Program
+## 💻 Echo Client Code
 
 ```java
 import java.io.*;
@@ -101,11 +97,11 @@ public class EchoClient {
 
 ### Echo Server
 
-![Echo Server](Output/echo_server.png)
+![Echo Server Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/echo_server.png)
 
 ### Echo Client
 
-![Echo Client](Output/echo_client.png)
+![Echo Client Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/echo_client.png)
 
 ---
 
@@ -117,17 +113,17 @@ To implement two-way chat communication using TCP sockets.
 
 ---
 
-## 📝 Algorithm – Server
+## 📝 Algorithm
 
 1. Create ServerSocket on port 7000.
 2. Accept client connection.
 3. Create input and output streams.
-4. Create separate thread for receiving messages.
+4. Use separate thread for receiving.
 5. Send and receive messages continuously.
 
 ---
 
-## 📝 Chat Server
+## 💻 Chat Server Code
 
 ```java
 import java.io.*;
@@ -163,7 +159,7 @@ public class ChatServer {
 
 ---
 
-## 📝 Chat Client
+## 💻 Chat Client Code
 
 ```java
 import java.io.*;
@@ -200,23 +196,23 @@ public class ChatClient {
 
 ### Chat Server
 
-![Chat Server](Output/simple_chat_server.png)
+![Chat Server Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/simple_chat_server.png)
 
 ### Chat Client
 
-![Chat Client](Output/simple_chat_client.png)
+![Chat Client Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/simple_chat_client.png)
 
 ---
 
-# 3️⃣ File Transfer using TCP
+# 3️⃣ File Transfer Using TCP
 
 ## 🎯 Aim
 
-To transfer a file between two systems using TCP.
+To transfer a file between two systems using TCP protocol.
 
 ---
 
-## 📝 File Transfer Server
+## 💻 File Server Code
 
 ```java
 import java.io.*;
@@ -245,7 +241,7 @@ public class FileServer {
 
 ---
 
-## 📝 File Transfer Client
+## 💻 File Client Code
 
 ```java
 import java.io.*;
@@ -274,13 +270,13 @@ public class FileClient {
 
 ## 📸 Output
 
-### FTP Server
+### File Transfer Server
 
-![FTP Server](Output/ftp_tcp_server.png)
+![File Server Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/ftp_tcp_server.png)
 
-### FTP Client
+### File Transfer Client
 
-![FTP Client](Output/ftp_tcp_client.png)
+![File Client Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/ftp_tcp_client.png)
 
 ---
 
@@ -288,11 +284,11 @@ public class FileClient {
 
 ## 🎯 Aim
 
-To execute system commands remotely via client-server architecture.
+To execute system commands remotely using client-server model.
 
 ---
 
-## 📝 Server
+## 💻 Remote Server Code
 
 ```java
 import java.io.*;
@@ -325,11 +321,11 @@ public class RemoteServer {
 
 ### Remote Server
 
-![Remote Server](Output/remote_exec_server.png)
+![Remote Server Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/remote_exec_server.png)
 
 ### Remote Client
 
-![Remote Client](Output/remote_exec_client.png)
+![Remote Client Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/remote_exec_client.png)
 
 ---
 
@@ -337,11 +333,11 @@ public class RemoteServer {
 
 ## 🎯 Aim
 
-To check reachability of a host.
+To check reachability of a host using Java InetAddress.
 
 ---
 
-## 📝 Ping Program
+## 💻 Code
 
 ```java
 import java.net.*;
@@ -359,7 +355,7 @@ public class PingProgram {
 
 ## 📸 Output
 
-![Ping Output](Output/ping_program.png)
+![Ping Program Output](https://raw.githubusercontent.com/mdsameerCrescent/CCN-Lab/main/Output/ping_program.png)
 
 ---
 
@@ -371,18 +367,7 @@ To detect and correct single-bit error using Hamming Code.
 
 ---
 
-## 📝 Algorithm
-
-1. Calculate number of parity bits.
-2. Insert parity bits at positions 2^n.
-3. Calculate parity values.
-4. Transmit data.
-5. Receiver checks parity.
-6. Detect and correct error.
-
----
-
-## 📝 Program
+## 💻 Code
 
 ```java
 import java.util.*;
@@ -423,39 +408,13 @@ public class HammingCode {
 
 ---
 
-# 🎓 Learning Outcomes
+# 🎓 Conclusion
 
-✔ Understanding TCP communication
-✔ Client–Server Architecture
-✔ File Transfer Protocol Basics
-✔ Remote Command Execution
-✔ Error Detection using Hamming Code
-✔ Java Networking API Usage
+All networking programs were successfully implemented using Java Socket Programming and demonstrated practical understanding of:
 
----
-
-# 📂 Output Folder Structure
-
-```
-output/
-│
-├── echo_client.png
-├── echo_server.png
-├── ftp_tcp_client.png
-├── ftp_tcp_server.png
-├── ping_program.png
-├── remote_exec_client.png
-├── remote_exec_server.png
-├── simple_chat_client.png
-└── simple_chat_server.png
-```
-
----
-
-# ⭐ Conclusion
-
-All networking concepts were successfully implemented using Java Socket Programming.
-The programs demonstrate practical understanding of TCP/IP communication and error detection techniques.
-
----
+* TCP Communication
+* Client–Server Architecture
+* File Transfer
+* Remote Execution
+* Error Detection Techniques
 
